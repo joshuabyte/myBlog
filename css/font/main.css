@@ -83,11 +83,6 @@ nav .profile-link a {
   border-bottom: 1px solid #333;
 }
 
-/* @media screen and (min-width: 500px) {
-  header .icons span {
-    display: flex;
-  }
-} */
 
 .main-container {
   width: 100vw;
@@ -98,4 +93,56 @@ nav .profile-link a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.home img {
+  position: absolute;
+}
+
+.home .home-title-container {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  max-width: 900px;
+  margin: 0 auto;
+  top: 80px;
+  padding: 25px;
+  text-align: center;
+}
+
+.home-title-container h1 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.home-title-container button {
+  width: 110px;
+  height: 45px;
+  border: 1px solid rgb(230, 217, 217);
+  background-color: #47cfac;
+  color: #333;
+  font-family: 'Roboto Mono';
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 700px) {
+  .home .home-title-container h1 {
+    font-size: 2.8rem;
+    margin-bottom: 80px;
+  }
+
+  .home .home-title-container button {
+    width: 120px;
+  height: 50px;
+  font-size: 1.65rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home .home-title-container h1 {
+    font-size: 3.5rem;
+  }
 }
