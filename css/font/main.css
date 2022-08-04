@@ -87,6 +87,10 @@ nav .profile-link a {
 .main-container {
   width: 100vw;
   height: 100vh;
+  background-image: url('/assets/img/Cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-container img {
@@ -110,9 +114,10 @@ nav .profile-link a {
   text-align: center;
 }
 
-.home-title-container h1 {
+.home-title-container p {
   color: white;
   font-size: 2rem;
+  font-weight: 700;
   margin-bottom: 30px;
   letter-spacing: 5px;
 }
@@ -130,7 +135,7 @@ nav .profile-link a {
 }
 
 @media screen and (min-width: 700px) {
-  .home .home-title-container h1 {
+  .home .home-title-container p {
     font-size: 2.8rem;
     margin-bottom: 80px;
   }
@@ -142,7 +147,7 @@ nav .profile-link a {
   }
 }
 @media screen and (min-width: 1024px) {
-  .home .home-title-container h1 {
+  .home .home-title-container p {
     font-size: 3.5rem;
   }
 }
