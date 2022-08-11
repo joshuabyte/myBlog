@@ -9,6 +9,11 @@ html {
   font-size: 62.5%;
 }
 
+/* Global class added to blog posts containers to limit its max width */
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
 
 a {
   text-decoration: none;
@@ -204,10 +209,11 @@ nav .profile-link a {
   padding: 0 50px 40px;
 }
 
-.blogs-posts-container h3 {
-  border-bottom: 1px solid #cdd2da;
-  padding-bottom: 20px;
-  text-align: center;
+.blogs-posts-container span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid #cdd2da;
 }
 
 .blogs-button {
@@ -217,6 +223,54 @@ nav .profile-link a {
   font-weight: 600;
 }
 
+.blogs-posts-container div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blogs-posts-container .blog-posts-title {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.blogs-posts-container .blog-posts-title h3 {
+  margin-top: 20px;
+}
+
 .post-container {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.blogs-posts-container .post-container {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 30%;
+  margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p {
+  margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #333;
+  border-top: 30px solid #47cfac;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 15px;
 }
