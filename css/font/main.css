@@ -141,7 +141,7 @@ nav .profile-link a {
   letter-spacing: 1px;
 }
 
-/* @media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {
   .home .home-title-container p {
     font-size: 2.8rem;
     margin-bottom: 80px;
@@ -157,7 +157,7 @@ nav .profile-link a {
   .home .home-title-container p {
     font-size: 3.5rem;
   }
-} */
+}
 
 .blogs-main {
   display: grid;
@@ -342,8 +342,12 @@ footer p {
   color: #333;
 }
 
+.profile-description-container{
+  padding: 15px 30px;
+}
+
 .profile-main-container img {
-  width: 320px;
+  width: 100%;
   margin-right: 30px;
 }
 
@@ -373,3 +377,4 @@ footer p {
 .projects-main-container .project-container {
   margin: 30px 5px;
 }
+
